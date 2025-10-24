@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    display: flex;
+}
+#right-bar{
+    width: 100%;
+}
+#topbar{
+    height: 11vh;
+}
+#left-bar{
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.icon-left{
+    padding: 1.5em;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-left p{
+    font-size: 0.5em;
+    margin: 0;
+}
+#topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 40%;
+}
+.right-center{
+     font-size: 2em;
+     width: 30%;
+     display: flex;
+}
+.right-top{
+    font-size: 2em;
+}
+input{
+    width: 60%;
+    text-align: left;
+}
+button{
+    font-size: 0.6em;
+    display: flex;
+    align-items: center;
+}
+.right-top{
+    display: flex;
+    width: 10%;
+    justify-content:space-around;
+}
